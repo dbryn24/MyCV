@@ -77,7 +77,7 @@ function App() {
     <div>
       <div className="logo" />
       <div className="img-holder">
-        <img src="/public/hero.png" alt="Hero" />
+        <img src="/bg.jpg" alt="background" />
       </div>
       <div className="header">
         <div className="letters">
@@ -108,12 +108,12 @@ function App() {
             {/* Profile Section */}
             <div className="profile" id="home">
               <div className="profile-image">
-                <img src="/public/img-2.jpg" alt="Profile" />
+                <img src="/profil.jpeg" alt="Profile" />
               </div>
               <div className="profile-text">
                 <h2>I'M DAVE</h2>
-                <p>My name is Dave Bryan, I'm a 5th semester student in computer science Universitas Klabat.</p><br />
-                <p>I am from Manado, North Sulawesi, Indonesia. I'm interested in game development, 3d art, and cyber security. I like to draw and play video games.</p>
+                <a>My name is Dave Bryan, I'm a 5th semester student in computer science Universitas Klabat.</a><br />
+                <a>I am from Manado, North Sulawesi, Indonesia. I'm interested in game development, 3d art, and cyber security. I like to draw and play video games.</a>
               </div>
             </div>
             {/* Skills Section */}
@@ -131,17 +131,17 @@ function App() {
             {/* Portfolio Section */}
             <div className="portofolio" id="portfolio">
               <div className="feat">
-                <img src="/public/porto1.png" alt="Project 1" />
+                <img src="/porto1.png" alt="Project 1" />
                 <h2>Real life building miniature</h2>
                 <p>Real life building miniature made from Blender 3D</p>
               </div>
               <div className="feat">
-                <img src="/public/game.png" alt="Project 2" />
+                <img src="/game.png" alt="Project 2" />
                 <h2>2 Players shooter game</h2>
                 <p>A 2 player game where the players control rockets to shoot each other's rockets with a bouncing bullet feature.</p>
               </div>
               <div className="feat">
-                <img src="/public/game2.png" alt="Project 3" />
+                <img src="/game2.png" alt="Project 3" />
                 <h2>Roll a ball</h2>
                 <p>A development from the basic Unity tutorial game "Roll a Ball" with more features. Themed as Pokémon, the objective is to catch as many Pokémon as possible in 5 minutes.</p>
               </div>
