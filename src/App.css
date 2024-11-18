@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 
+
 html {
   overscroll-behavior: smooth;
   background-color: #000;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -146,6 +148,12 @@ img {
 .img {
   width: 200px;
   height: 275px;
+}
+
+.container {
+  margin: 0 auto;
+  justify-content: flex-start; /* Jangan gunakan center jika ada ruang tambahan */
+  align-items: stretch; /* Pastikan elemen memanjang */
 }
 
 .profile {
